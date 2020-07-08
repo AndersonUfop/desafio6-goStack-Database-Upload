@@ -17,6 +17,7 @@ export default class CreateCategories1593625567431
           {
             name: 'title',
             type: 'varchar',
+            isNullable: true,
           },
           {
             name: 'created_at',

@@ -56,6 +56,7 @@ transactionsRouter.post(
     const transactions = await importTransactions.execute(request.file.path); // Diretório do arquivo
 
     return response.json(transactions);
-});
+  },
+);
 
 export default transactionsRouter;
